@@ -21,6 +21,19 @@
 
 ## 🧱 System Architecture
 
+Frontend (React)
+|
+v
+API Gateway
+/ |
+/ |
+Patient Doctor Appointment
+Service Service Service
+| | |
+PatientDB DoctorDB AppointmentDB
+
+yaml
+Copy code
 
 ---
 
@@ -40,8 +53,19 @@
 ## 🧪 `.env` Setup
 
 ### Backend (`/backend`)
+PORT=5001
+MONGO_URI=your_mongo_uri
+JWT_SECRET_KEY=your_jwt_secret
+NODE_ENV=development
+
+shell
+Copy code
 
 ### Frontend (`/frontend`)
+VITE_API_BASE_URL=http://localhost:5001
+
+yaml
+Copy code
 
 ---
 
@@ -51,9 +75,37 @@
 cd backend
 npm install
 npm run dev
-## 🔧 Run the Frontend
-
-```bash
-cd backend
+💻 Run the Frontend
+bash
+Copy code
+cd frontend
 npm install
 npm run dev
+🧩 Microservices Overview
+🩺 Patient Service – Registration, login, and personal data
+
+👨‍⚕️ Doctor Service – Manage profiles, specializations & appointments
+
+📅 Appointment Service – Book, update, or cancel appointments
+
+🚪 API Gateway – Handles routing & authentication across services
+
+🧑‍💻 Contributors
+Name	Role
+Your Name	Full Stack Developer
+Team Member 1	Backend Engineer
+Team Member 2	UI/UX Designer
+
+📄 License
+This project is licensed under the MIT License.
+Feel free to use and modify it for learning or production.
+
+❤️ Acknowledgements
+Special thanks to:
+
+Open Source Libraries (React, Express, MongoDB)
+
+TailwindCSS for styling
+
+The developer community for continuous support
+
