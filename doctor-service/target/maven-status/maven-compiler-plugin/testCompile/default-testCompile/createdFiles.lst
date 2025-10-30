@@ -1,0 +1,4 @@
+com\hospital\doctor\DoctorServiceApplicationTests.class
+com\hospital\doctor\service\DoctorServiceTest.class
+com\hospital\doctor\controller\DoctorControllerTest.class
+com\hospital\doctor\integration\DoctorIntegrationTest.class

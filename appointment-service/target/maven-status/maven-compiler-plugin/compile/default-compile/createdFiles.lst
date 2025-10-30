@@ -1,0 +1,5 @@
+com\hospital\appointment\controller\AppointmentController.class
+com\hospital\appointment\AppointmentServiceApplication.class
+com\hospital\appointment\service\AppointmentService.class
+com\hospital\appointment\repository\AppointmentRepository.class
+com\hospital\appointment\entity\Appointment.class
