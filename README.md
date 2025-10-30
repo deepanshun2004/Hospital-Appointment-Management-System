@@ -1,6 +1,6 @@
 <h1 align="center">🏥 Hospital Appointment Management System</h1>
 
-![App Demo](/book1.jpg)
+
 
 ---
 
