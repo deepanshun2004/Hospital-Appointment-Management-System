@@ -1,7 +1,7 @@
 # 🏥 Hospital Appointment Management System
 
 A **Microservices-based Web Application** to manage hospital appointments efficiently.  
-Patients can register and book appointments, doctors can manage availability, and admins can oversee the entire system — all through a unified, secure platform.  
+Patients can register and book appointments, doctors can manage availability, and admins can oversee the entire system — all through a unified, secure platform.
 
 ---
 
@@ -23,11 +23,12 @@ Patients can register and book appointments, doctors can manage availability, an
 - View appointment history  
 
 ### 🛡️ Security & Gateway
-- **JWT-based authentication** across services  
-- **API Gateway** as a single entry point for all services  
+- **JWT-based authentication** across all services  
+- **API Gateway** acts as a single entry point for the system  
 
 ### 💻 Frontend
-- Built with **React**, **Vite**, and **TailwindCSS/Bootstrap** for a clean, responsive UI  
+- Built with **React**, **Vite**, and **TailwindCSS/Bootstrap**  
+- Responsive, modern, and user-friendly interface  
 
 ---
 
