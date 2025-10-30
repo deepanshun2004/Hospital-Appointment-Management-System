@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hospital Appointment Booking System
 
 Monorepo containing a React frontend and Spring Boot microservices:
@@ -36,3 +37,6 @@ npm run dev
 - GET /doctors
 - POST /appointments/book
 - POST /appointments/cancel
+=======
+# Hospital-Appointment-Management-System
+>>>>>>> 36baa815f291ac4bd3cea4b66be79dbde4c18927
