@@ -51,4 +51,9 @@
 cd backend
 npm install
 npm run dev
+## 🔧 Run the Frontend
 
+```bash
+cd backend
+npm install
+npm run dev
