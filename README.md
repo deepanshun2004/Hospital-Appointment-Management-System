@@ -1,45 +1,54 @@
-# 🏥 Hospital Appointment Management System
+<h1 align="center">🏥 Hospital Appointment Management System</h1>
 
-A **Microservices-based Web Application** to manage hospital appointments efficiently.  
-Patients can register and book appointments, doctors can manage availability, and admins can oversee the entire system — all through a unified, secure platform.
+![App Demo](/frontend/public/screenshot-for-readme.png)
 
 ---
 
-## ✨ Features
+### 🌟 Highlights
 
-### 👩‍⚕️ Patient Management
-- Patient registration & login  
-- View & update profile  
-- Manage personal appointments  
-
-### 🧑‍⚕️ Doctor Management
-- Doctor registration & login  
-- Add specialization & schedule  
-- Manage patient appointments  
-
-### 📅 Appointment Management
-- Search & filter doctors by specialization  
-- Create, cancel, or reschedule appointments  
-- View appointment history  
-
-### 🛡️ Security & Gateway
-- **JWT-based authentication** across all services  
-- **API Gateway** acts as a single entry point for the system  
-
-### 💻 Frontend
-- Built with **React**, **Vite**, and **TailwindCSS/Bootstrap**  
-- Responsive, modern, and user-friendly interface  
+- 👩‍⚕️ Patient Registration, Login & Appointment Booking  
+- 🧑‍⚕️ Doctor Dashboard with Availability & Schedule Management  
+- 📅 Appointment Creation, Rescheduling & Cancellation  
+- 🔐 Secure JWT Authentication across all services  
+- 🚪 API Gateway as a Single Entry Point  
+- 💻 Responsive UI using React + Vite + TailwindCSS  
+- ⚙️ Microservices Architecture (Patient, Doctor, Appointment)  
+- 🗄️ Separate Databases per Service for Scalability  
+- 🐳 Docker & Kubernetes Ready (Optional Deployment)  
+- 🚀 Designed for Performance and Maintainability  
 
 ---
 
 ## 🧱 System Architecture
 
-```mermaid
-flowchart LR
-    A[Frontend (React)] --> B[API Gateway]
-    B --> C[Patient Service]
-    B --> D[Doctor Service]
-    B --> E[Appointment Service]
-    C --- F[(Patient DB)]
-    D --- G[(Doctor DB)]
-    E --- H[(Appointment DB)]
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer | Technologies Used |
+|-------|--------------------|
+| Frontend | React, Vite, TailwindCSS |
+| Backend | Node.js, Express.js |
+| Authentication | JWT |
+| Database | MongoDB / MySQL |
+| Gateway | Nginx / API Gateway |
+| Deployment | Docker / Kubernetes (optional) |
+
+---
+
+## 🧪 `.env` Setup
+
+### Backend (`/backend`)
+
+### Frontend (`/frontend`)
+
+---
+
+## 🔧 Run the Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+
